@@ -47,9 +47,9 @@ DSA-C/
 ---
 
 # Sorting
-- [ ] Bubble Sort
-- [ ] Selection Sort
-- [ ] Insertion Sort
+- [X] Bubble Sort
+- [X] Selection Sort
+- [X] Insertion Sort
 - [ ] Merge Sort
 - [ ] Quick Sort
 - [ ] Heap Sort
