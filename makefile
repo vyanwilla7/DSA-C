@@ -3,6 +3,7 @@ CFLAGS = -Wall -Wextra
 FOLDER = build
 
 src_sorting = algorithms/Sorting
+src_arrays = data_structures/Arrays
 
 ### FOR SORTING ALGORITHMS 
 
@@ -26,3 +27,10 @@ insertion:
 
 run_insertion:
 	./$(FOLDER)/insertion
+
+### FOR ARRAYS DATA STRUCTURES
+array_static:
+	$(CC) $(CFLAGS) $(src_arrays)/array_static.c -o $(FOLDER)/array_static
+
+run_arr_static:
+	./$(FOLDER)/array_static

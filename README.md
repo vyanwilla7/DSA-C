@@ -23,6 +23,10 @@ DSA-C/
 
 # Data Structures
 
+**Arrays**
+- [X] Static Array
+- [ ] Dynamic Array
+
 **Linear Structures**
 - [ ] Singly Linked List
 - [ ] Doubly Linked List
