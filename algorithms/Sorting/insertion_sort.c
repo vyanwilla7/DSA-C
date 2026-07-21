@@ -1,8 +1,8 @@
 /*
  * Selection sort:
- * mengambil satu elemen dari bagian data yang belum terurut, kemudian menyisipkan ke posisi yang tepat pada bagian data yang telah terurut
+ * takes an element from the unsorted portion of the data and inserts it into the correct position within the sorted portion
  *
- * algoritma ini bekerja dengan prinsip yang sama seperti orang yang sedang mengurutkan kartu di tangannya
+ * this algorithm operates on the same principle as someone sorting cards in their hand
  *
  * Time complexity:
  * Best: O(n)
