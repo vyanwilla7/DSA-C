@@ -25,7 +25,7 @@ DSA-C/
 
 **Arrays**
 - [X] Static Array
-- [ ] Dynamic Array
+- [X] Dynamic Array
 
 **Linear Structures**
 - [ ] Singly Linked List
@@ -54,7 +54,7 @@ DSA-C/
 - [X] Bubble Sort
 - [X] Selection Sort
 - [X] Insertion Sort
-- [ ] Merge Sort
+- [X] Merge Sort
 - [ ] Quick Sort
 - [ ] Heap Sort
 - [ ] Shell Sort

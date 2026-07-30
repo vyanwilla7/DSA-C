@@ -1,11 +1,11 @@
 CC = gcc
-CFLAGS = -Wall -Wextra
+CFLAGS = -Wall -Wextra -fsanitize=address -g
 FOLDER = build
 
 src_sorting = algorithms/Sorting
 src_arrays = data_structures/Arrays
 
-### FOR SORTING ALGORITHMS 
+### ==========FOR SORTING ALGORITHMS==========
 
 # bubble_sort
 bubble:
@@ -28,9 +28,22 @@ insertion:
 run_insertion:
 	./$(FOLDER)/insertion
 
-### FOR ARRAYS DATA STRUCTURES
+# merge_sort
+merge:
+	$(CC) $(CFLAGS) $(src_sorting)/merge_sort.c -o $(FOLDER)/merge
+
+run_merge:
+	./$(FOLDER)/merge
+
+### ==========FOR ARRAYS DATA STRUCTURES==========
 array_static:
 	$(CC) $(CFLAGS) $(src_arrays)/array_static.c -o $(FOLDER)/array_static
 
 run_arr_static:
 	./$(FOLDER)/array_static
+
+array_dynamic:
+	$(CC) $(CFLAGS) $(src_arrays)/array_dynamic.c -o $(FOLDER)/array_dynamic
+
+run_arr_dynamic:
+	./$(FOLDER)/array_dynamic
