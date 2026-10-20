@@ -28,8 +28,8 @@ DSA-C/
 - [X] Dynamic Array
 
 **Linear Structures**
-- [ ] Singly Linked List
-- [ ] Doubly Linked List
+- [X] Singly Linked List
+- [X] Doubly Linked List
 - [ ] Circular Linked List
 - [ ] Stack
 - [ ] Queue
